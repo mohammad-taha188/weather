@@ -1,8 +1,61 @@
-# React + Vite
+# Weather App 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple weather application built with **React.js**. It allows users to check the current weather conditions for different cities using real-time data from an API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- 🌤️ **Current Weather**: Displays the current weather conditions such as temperature, wind speed, and humidity.
+- 📍 **Location Search**: Search for weather by city name.
+- 🌈 **Dynamic Icons**: Shows weather-specific icons (e.g., clouds, sun, rain).
+- ⚡ **Responsive Design**: Fully responsive and works on all devices.
+
+---
+
+## Technologies Used
+- **React.js**: For building the user interface.
+- **CSS Modules**: For styling the app.
+- **Axios**: For fetching data from the weather API.
+- **Vite**: For bundling and development.
+
+---
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Open the app in your browser at http://localhost:3000.
+
+API Used
+This app uses the OpenWeatherMap API to fetch real-time weather data. Make sure to generate an API key and add it to your project.
+
+How to Use
+Enter a city name in the search bar.
+View the current weather conditions, including temperature, wind speed, and more.
+Weather-specific icons will dynamically update based on the conditions.
+Screenshots
+
+Future Enhancements
+🔄 Add a "5-day weather forecast" feature.
+🌐 Support multiple languages.
+🌍 Add geolocation to detect the user's current location.
+Contributing
+Feel free to contribute to this project! You can fork the repository, make changes, and submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+

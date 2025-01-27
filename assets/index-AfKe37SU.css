@@ -2,19 +2,16 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color: rgba(255, 255, 255, 0.87);
-
+  color: #ffffffde;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -23,24 +20,20 @@ a {
 a:hover {
   color: #535bf2;
 }
-
 body {
   margin: 0;
-
   width: 100%;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("./assets/wallpaper.jpeg");
+  background-image: url(/assets/wallpaper-Duqxwbhu.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -51,14 +44,13 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  box-shadow: 3px 6px 6px 0px rgba(207, 216, 220, 0.87);
+  box-shadow: 3px 6px 6px #cfd8dcde;
   border: 1px solid rgba(236, 240, 241, 0.87);
 }
 button:active {
-  box-shadow: 3px 6px 6px 0px rgba(187, 190, 192, 0.87);
+  box-shadow: 3px 6px 6px #bbbec0de;
   border: 1px solid rgba(187, 190, 192, 0.87);
 }
-
 @media (prefers-color-scheme: light) {
   a:hover {
     color: #747bff;
@@ -66,4 +58,38 @@ button:active {
   button {
     background-color: #f9f9f9;
   }
+}
+._container_tocz5_1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+._inputName_tocz5_7 {
+  width: 80%;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 3px 6px 6px #cfd8dcde;
+  font-family: Courier New, Courier, monospace;
+  border: 1px solid rgba(236, 240, 241, 0.87);
+  outline: none;
+  margin-top: 20px;
+}
+._inputName_tocz5_7:focus {
+  box-shadow: 3px 6px 6px #bbbec0de;
+  border: 1px solid rgba(187, 190, 192, 0.87);
+}
+._btnName_tocz5_21 {
+  margin-top: 10px;
+}
+._nameBox_tocz5_24 {
+  margin-top: 20px;
+}
+._info_tocz5_27 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

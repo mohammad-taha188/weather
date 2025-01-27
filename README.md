@@ -7,7 +7,7 @@ site preview : https://mohammad-taha188.github.io/weather/
 ---
 
 ## Features
-- 🌤️ **Current Weather**: Displays the current weather conditions such as temperature, wind speed, and humidity.
+- 🌤️ **Current Weather**: Displays the current weather conditions such as temperature, wind speed.
 - 📍 **Location Search**: Search for weather by city name.
 - 🌈 **Dynamic Icons**: Shows weather-specific icons (e.g., clouds, sun, rain).
 - ⚡ **Responsive Design**: Fully responsive and works on all devices.

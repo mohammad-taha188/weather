@@ -2,6 +2,8 @@
 
 This is a simple weather application built with **React.js**. It allows users to check the current weather conditions for different cities using real-time data from an API.
 
+site preview : https://mohammad-taha188.github.io/weather/
+
 ---
 
 ## Features
@@ -55,6 +57,14 @@ Future Enhancements
 🌍 Add geolocation to detect the user's current location.
 Contributing
 Feel free to contribute to this project! You can fork the repository, make changes, and submit a pull request.
+
+
+---
+
+site preview : https://mohammad-taha188.github.io/weather/
+
+---
+
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.

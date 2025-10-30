@@ -63,7 +63,7 @@ export default async function Home({ searchParams }) {
                     <div className="grid grid-cols-2 gap-2">
                       <div className="border border-gray-200 bg-sky-50 rounded-sm p-4 shadow shadow-gray-300 flex flex-col justify-between">
                         <div className="flex items-center justify-center">
-                          <p>main : {(data?.main.temp - 272.15).toFixed(2)}</p>
+                          <p>main : {(data?.main.temp - 272.15).toFixed(2)}C</p>
                           <Image
                             src={"/icon/temp.svg"}
                             width={30}

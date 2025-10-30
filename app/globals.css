@@ -75,7 +75,7 @@ body {
   }
 }
 body {
-  @apply bg-gradient-to-r from-sky-200 to-sky-400 text-white min-h-screen;
+  @apply bg-gradient-to-r from-sky-100 to-sky-200 text-white min-h-screen;
 } /* تنظیم فونت و سایز پایه برای کل پروژه */
 html {
   font-size: 16px;
@@ -123,5 +123,5 @@ h3 {
   height: clamp(1.25rem, 0.5vw + 1rem, 2rem);
 }
 *::selection {
-  @apply bg-sky-200;
+  @apply bg-sky-100;
 }

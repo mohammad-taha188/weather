@@ -4,8 +4,6 @@ import Image from "next/image";
 export default async function Home({ searchParams }) {
   let search = await searchParams;
 
-  console.log(search.s);
-
   let data = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${search.s}&appid=1308934394f18a7ac84141670b5663f7`
   ).then((res) => res.json());
@@ -30,7 +28,6 @@ export default async function Home({ searchParams }) {
 
   const hours = String(localTime.getUTCHours()).padStart(2, "0");
   const minutes = String(localTime.getUTCMinutes()).padStart(2, "0");
-  const seconds = String(localTime.getUTCSeconds()).padStart(2, "0");
 
   const cityTime = `${hours}:${minutes}`;
 

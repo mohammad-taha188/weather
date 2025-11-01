@@ -8,13 +8,24 @@ function Search() {
   let router = useRouter();
 
   function searchHandler() {
+    let music = new Audio("/music/jojo.mp3");
+    music.currentTime = 0;
     if (search == "salamat" || search == "سلامت") {
       alert("اقای سلامت بهترین دبیر دنیا");
-    }
-    if (search == "robert" || search == "رابرت" || search == "marcus" || search == "مارکوس") {
+    } else if (
+      search == "robert" ||
+      search == "رابرت" ||
+      search == "marcus" ||
+      search == "مارکوس"
+    ) {
       alert("من این سنگو دوست ندارم🪨🪨");
     }
-
+    if (search == "jojo" || search == "جوجو") {
+      music.play().catch((err) => {
+        alert("پخش صدا مجاز نیست:", err);
+        console.log("پخش صدا مجاز نیست:", err);
+      });
+    }
     router.push(`?s=${search}`);
   }
 

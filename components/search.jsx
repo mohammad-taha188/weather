@@ -8,6 +8,10 @@ function Search() {
   let router = useRouter();
 
   function searchHandler() {
+    if (search == "salamat" || search == "سلامت") {
+      alert("اقای سلامت بهترین دبیر دنیا");
+    }
+
     router.push(`?s=${search}`);
   }
 

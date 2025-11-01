@@ -11,6 +11,9 @@ function Search() {
     if (search == "salamat" || search == "سلامت") {
       alert("اقای سلامت بهترین دبیر دنیا");
     }
+    if (search == "robert" || search == "رابرت" || search == "marcus" || search == "مارکوس") {
+      alert("من این سنگو دوست ندارم🪨🪨");
+    }
 
     router.push(`?s=${search}`);
   }
